@@ -9,7 +9,11 @@ def fetch_data():
 
     if response.status_code == 200:
         data = response.json()
-        print(json.dumps(data, indent=4))
+
+        with open("data/raw/sample_response.json", "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=4)
+
+        print("Data saved to data/raw/sample_response.json")
     else:
         print("Failed to fetch data")
 
