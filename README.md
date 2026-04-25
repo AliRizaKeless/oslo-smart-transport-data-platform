@@ -71,6 +71,20 @@ Project started and under active development.
 
 Last updated: April 2026
 
+## How to Run
 
+1. Install dependencies
+
+```bash
+pip install -r requirements.txt
+
+2. Run ingestion script
+python src/ingestion/ruter_api_ingest.py
+
+3. Run transform script
+python src/transform/transform_posts.py
+
+4. Check processed output
+data/processed/processed_post.csv
 
 
