@@ -1,6 +1,6 @@
-\# Oslo Smart Transport Data Platform
+Oslo Smart Transport Data Platform
 
-## Tech Stack
+Tech Stack
 
 - Python
 - SQL
@@ -16,10 +16,7 @@
 An end-to-end Azure-based data engineering project inspired by modern public transport analytics in Oslo.
 
 
-
-\## Project Goals
-
-
+Project Goals
 
 \- Build scalable cloud data pipelines
 
@@ -33,9 +30,7 @@ An end-to-end Azure-based data engineering project inspired by modern public tra
 
 
 
-\## Tech Stack
-
-
+Tech Stack
 
 \- Python
 
@@ -50,11 +45,7 @@ An end-to-end Azure-based data engineering project inspired by modern public tra
 \- GitHub Actions
 
 
-
-\## Project Structure
-
-
-
+Project Structure
 ```text
 
 infra/terraform
@@ -72,17 +63,13 @@ docs
 tests
 
 
-
 Status
-
-
 
 Project started and under active development.
 
-
 Last updated: April 2026
 
-## How to Run
+How to Run
 
 1. Install dependencies
 
@@ -98,4 +85,25 @@ python src/transform/transform_posts.py
 4. Check processed output
 data/processed/processed_post.csv
 
+Project Roadmap
+
+Phase 1
+- API data ingestion
+- Raw data storage
+- Data transformation
+- CSV export
+
+Phase 2
+- SQL database loading
+- Dashboard reporting
+- Data quality checks
+
+Phase 3
+- Azure deployment
+- Terraform infrastructure
+- CI/CD pipeline
+
+Phase 4
+- Machine learning predictions
+- Real transport analytics
 
