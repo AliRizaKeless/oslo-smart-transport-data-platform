@@ -1,5 +1,16 @@
 \# Oslo Smart Transport Data Platform
 
+## Tech Stack
+
+- Python
+- SQL
+- Git
+- Data Engineering
+- ETL
+- CSV / JSON
+- Azure (planned)
+- Terraform (planned)
+- Power BI (planned)
 
 
 An end-to-end Azure-based data engineering project inspired by modern public transport analytics in Oslo.
