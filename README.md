@@ -122,3 +122,13 @@ SQL Database
 Dashboard / Analytics  
 ↓  
 Azure Cloud Deployment
+
+Next Steps
+
+- Connect to real Oslo transport APIs
+- Load data into SQL database
+- Build Power BI dashboard
+- Deploy pipeline to Azure
+- Manage infrastructure with Terraform
+- Add automated tests
+- Add CI/CD with GitHub Actions
