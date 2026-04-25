@@ -107,3 +107,18 @@ Phase 4
 - Machine learning predictions
 - Real transport analytics
 
+Architecture Flow
+
+API Source  
+↓  
+Raw JSON Storage  
+↓  
+Python Transform  
+↓  
+Processed JSON / CSV  
+↓  
+SQL Database  
+↓  
+Dashboard / Analytics  
+↓  
+Azure Cloud Deployment
