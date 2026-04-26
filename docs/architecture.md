@@ -1,8 +1,8 @@
-\# Architecture Overview
+Architecture Overview
 
 
 
-\## Data Flow
+Data Flow
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-\## Future Improvements
+Future Improvements
 
 
 
@@ -34,9 +34,17 @@
 
 
 
-\## Status
+Status
 
 
 
 Project is under active development.
+
+
+
+Current Focus
+
+
+
+README improvements and Azure preparation.
 
