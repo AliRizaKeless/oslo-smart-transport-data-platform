@@ -13,3 +13,9 @@ resource "azurerm_storage_account" "main" {
 
   allow_blob_public_access = false
 }
+
+resource "azurerm_storage_container" "raw" {
+  name                  = "raw"
+  storage_account_name  = azurerm_storage_account.main.name
+  container_access_type = "private"
+}
