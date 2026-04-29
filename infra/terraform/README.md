@@ -16,7 +16,11 @@ terraform apply
 Destroy resources
 terraform destroy
 
-
+Provisioned Resources
+- Azure Resource Group
+- Azure Storage Account
+- Raw Blob Container
+- Processed Blob Container
 
 
 
