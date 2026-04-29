@@ -17,3 +17,8 @@ output "raw_container_name" {
   description = "Name of the raw data container"
   value       = azurerm_storage_container.raw.name
 }
+
+output "processed_container_name" {
+  description = "Name of the processed data container"
+  value       = azurerm_storage_container.processed.name
+}
