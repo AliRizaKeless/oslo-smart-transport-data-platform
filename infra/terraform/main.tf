@@ -19,3 +19,9 @@ resource "azurerm_storage_container" "raw" {
   storage_account_name  = azurerm_storage_account.main.name
   container_access_type = "private"
 }
+
+resource "azurerm_storage_container" "processed" {
+  name                  = "processed"
+  storage_account_name  = azurerm_storage_account.main.name
+  container_access_type = "private"
+}
