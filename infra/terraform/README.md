@@ -22,6 +22,10 @@ Provisioned Resources
 - Raw Blob Container
 - Processed Blob Container
 
+Status
+
+Terraform plan successful. Ready for apply.
+
 
 
 
