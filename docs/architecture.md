@@ -48,3 +48,11 @@ Current Focus
 
 README improvements and Azure preparation.
 
+
+
+Cloud Integration
+
+
+
+Azure Blob Storage integration in progress.
+
