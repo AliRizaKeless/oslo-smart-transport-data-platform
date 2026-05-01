@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from azure.storage.blob import BlobServiceClient
 
+print("Starting Azure upload script...")
 
 def upload_file_to_blob():
     load_dotenv()
