@@ -36,15 +36,11 @@ Future Improvements
 
 Status
 
-
-
 Project is under active development.
 
 
 
 Current Focus
-
-
 
 README improvements and Azure preparation.
 
@@ -52,7 +48,11 @@ README improvements and Azure preparation.
 
 Cloud Integration
 
-
-
 Azure Blob Storage integration in progress.
+
+
+
+Data Flow (Cloud)
+
+Local JSON → Python Script → Azure Blob Storage (raw container)
 
