@@ -23,9 +23,10 @@ Provisioned Resources
 - Processed Blob Container
 
 Status
-
 Terraform plan successful. Ready for apply.
 
+Deployment
+Infrastructure successfully deployed to Azure using Terraform.
 
 
 
