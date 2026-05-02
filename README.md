@@ -132,3 +132,9 @@ Next Steps
 - Manage infrastructure with Terraform
 - Add automated tests
 - Add CI/CD with GitHub Actions
+
+Demo
+Successfully uploaded local JSON data to Azure Blob Storage using Python.
+
+- Source: data/raw/sample_response.json
+- Destination: Azure Blob Storage (raw container)
