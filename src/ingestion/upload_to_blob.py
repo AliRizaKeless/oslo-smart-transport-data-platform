@@ -25,7 +25,7 @@ def upload_file_to_blob():
         blob_client.upload_blob(file, overwrite=True)
 
     print(f"Uploaded {local_file_path} to container '{container_name}'")
-
+    print("Upload completed successfully.")
 
 if __name__ == "__main__":
     upload_file_to_blob()
