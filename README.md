@@ -111,3 +111,8 @@ Successfully uploaded local JSON data to Azure Blob Storage using Python.
 - Source: data/raw/sample_response.json
 - Destination: Azure Blob Storage (raw container)
 
+Verified Azure Storage Output
+The pipeline has been tested successfully with Azure Blob Storage.
+
+- Raw file uploaded to `raw/sample_response.json`
+- Processed file uploaded to `processed/processed_post.csv`
