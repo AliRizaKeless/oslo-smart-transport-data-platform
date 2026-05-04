@@ -15,3 +15,6 @@ Thumbs.db
 
 # Data files
 data/raw/*.json
+
+# Local databases
+*.db
