@@ -60,6 +60,9 @@ data/processed/processed_post.csv
 5. Download data from Azure Blob Storage
 python src/ingestion/download_from_blob.py
 
+6. Load processed CSV into SQLite database
+python src/transform/load_to_sqlite.py
+
 Project Roadmap
 Phase 1
 - API data ingestion
