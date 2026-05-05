@@ -1,0 +1,6 @@
+stop_id,stop_name,line_id,line_name,transport_mode,destination,aimed_departure_time,expected_departure_time,realtime
+NSR:StopPlace:59872,Oslo S,VYG:Line:RE20,Oslo S-Halden-Göteborg-Malmö (X-Border),rail,Göteborg C,2026-05-05T14:14:00+02:00,2026-05-05T14:14:00+02:00,True
+NSR:StopPlace:59872,Oslo S,VYG:Line:R13,Drammen-Oslo S-Dal,rail,Dal,2026-05-05T14:14:00+02:00,2026-05-05T14:14:00+02:00,True
+NSR:StopPlace:59872,Oslo S,VYG:Line:RE10,Drammen-Oslo S-Lillehammer,rail,Drammen,2026-05-05T13:29:00+02:00,2026-05-05T14:14:03+02:00,True
+NSR:StopPlace:59872,Oslo S,VYG:Line:L2,Stabekk-Oslo S-Ski,rail,Ski,2026-05-05T14:16:00+02:00,2026-05-05T14:16:00+02:00,True
+NSR:StopPlace:59872,Oslo S,VYG:Line:L2,Stabekk-Oslo S-Ski,rail,Stabekk,2026-05-05T14:17:00+02:00,2026-05-05T14:17:00+02:00,True
