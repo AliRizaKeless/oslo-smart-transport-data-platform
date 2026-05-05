@@ -2,19 +2,24 @@ import csv
 import sqlite3
 
 
-def load_csv_to_sqlite():
-    csv_path = "data/processed/processed_post.csv"
-    db_path = "data/processed/posts.db"
+def load_entur_to_sqlite():
+    csv_path = "data/processed/oslo_s_departures.csv"
+    db_path = "data/processed/transport.db"
 
     connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
 
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS posts (
-            post_id INTEGER PRIMARY KEY,
-            title TEXT,
-            body TEXT,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        CREATE TABLE IF NOT EXISTS departures (
+            stop_id TEXT,
+            stop_name TEXT,
+            line_id TEXT,
+            line_name TEXT,
+            transport_mode TEXT,
+            destination TEXT,
+            aimed_departure_time TEXT,
+            expected_departure_time TEXT,
+            realtime BOOLEAN
         )
     """)
 
@@ -23,15 +28,35 @@ def load_csv_to_sqlite():
 
         for row in reader:
             cursor.execute("""
-                INSERT OR REPLACE INTO posts (post_id, title, body)
-                VALUES (?, ?, ?)
-            """, (row["post_id"], row["title"], row["body"]))
+                INSERT INTO departures (
+                    stop_id,
+                    stop_name,
+                    line_id,
+                    line_name,
+                    transport_mode,
+                    destination,
+                    aimed_departure_time,
+                    expected_departure_time,
+                    realtime
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                row["stop_id"],
+                row["stop_name"],
+                row["line_id"],
+                row["line_name"],
+                row["transport_mode"],
+                row["destination"],
+                row["aimed_departure_time"],
+                row["expected_departure_time"],
+                row["realtime"]
+            ))
 
     connection.commit()
     connection.close()
 
-    print("CSV data loaded into SQLite database.")
+    print("Loaded Entur departures into SQLite database.")
 
 
 if __name__ == "__main__":
-    load_csv_to_sqlite()
+    load_entur_to_sqlite()
