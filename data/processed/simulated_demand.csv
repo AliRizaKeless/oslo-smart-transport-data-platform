@@ -1,0 +1,6 @@
+line_name,destination,expected_departure_time,simulated_passenger_demand
+Oslo S-Halden-Göteborg-Malmö (X-Border),Göteborg C,2026-05-05T14:14:00+02:00,110
+Drammen-Oslo S-Dal,Dal,2026-05-05T14:14:00+02:00,110
+Drammen-Oslo S-Lillehammer,Drammen,2026-05-05T14:14:03+02:00,110
+Stabekk-Oslo S-Ski,Ski,2026-05-05T14:16:00+02:00,110
+Stabekk-Oslo S-Ski,Stabekk,2026-05-05T14:17:00+02:00,110
